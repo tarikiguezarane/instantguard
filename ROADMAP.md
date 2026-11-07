@@ -10,7 +10,7 @@ Règle : chaque jour, faire la première étape non cochée, puis la cocher. Une
 Uniquement des données synthétiques (IBAN de test, aucune donnée réelle).
 
 ## Semaine 1 – Flux ISO 20022 et règles
-- [ ] Jour 1 – Structure : `generator/` (Python), `streams/` (Kafka Streams), `ml/`, `api/`, `dashboard/`, `infra/`, licence MIT, README (contexte SEPA Instant / Wero).
+- [x] Jour 1 – Structure : `generator/` (Python), `streams/` (Kafka Streams), `ml/`, `api/`, `dashboard/`, `infra/`, licence MIT, README (contexte SEPA Instant / Wero).
 - [ ] Jour 2 – Docker Compose : Kafka en mode KRaft, création des topics (`pacs008.in`, `tx.normalized`, `decisions`, `alerts`).
 - [ ] Jour 3 – Modèle pacs.008 (sous-ensemble utile) : parsing et validation XML + tests sur messages d'exemple.
 - [ ] Jour 4 – Générateur Python : flux réalistes de virements, avec des schémas de fraude injectés et étiquetés.
