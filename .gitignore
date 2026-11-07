@@ -1,0 +1,37 @@
+# --- OS / editors ---
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# --- Java / Maven (streams, api) ---
+target/
+*.class
+*.log
+hs_err_pid*
+
+# --- Python (generator, ml) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+
+# --- ML artefacts (regenerated from synthetic data) ---
+ml/data/
+ml/models/*.onnx
+*.joblib
+
+# --- Node / Angular (dashboard) ---
+dashboard/node_modules/
+dashboard/dist/
+dashboard/.angular/
+
+# --- Secrets ---
+.env
+.env.*
+!.env.example
